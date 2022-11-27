@@ -1,0 +1,99 @@
+body {
+  background-color: rgb(0, 0, 0);
+  color: rgb(248, 248, 248)
+}
+
+#titleGroup {
+  margin: 0;
+  font-size: 18px;
+  font-family: Verdana;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+header {
+  background-color: rgb(65, 65, 233);
+  margin: auto;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #a7c957;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top: black;
+  border-width: 2px;
+}
+
+.iconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.icon {
+  margin-bottom: 4px;
+  font-size: 35px;
+  padding: 10px 10px;
+}
+
+.active {
+  color: rgb(255, 255, 255);
+}
+
+.activeLink {
+  color: rgb(255, 255, 255);
+}
+
+
+.normalLink {
+  color: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #4141e9;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4141e9;
+}
+::-webkit-scrollbar-track {
+  background: #24233b;
+  box-shadow: inset 0px 0px 0px 0px #f0f0f0;
+}
+
+.title-content {
+  padding: 20px 0 5x 40px;
+  color: white;
+  font-size: 24px;
+  font-weight: bolder;
+  font-family: Verdana;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.title-page {
+  color: white;
+  background-color: #bc4749;
+  font-size: 24px;
+  font-weight: bolder;
+  font-family: Verdana;
+  text-align: left;
+  padding: 20px 20px;
+}

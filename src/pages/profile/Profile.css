@@ -1,0 +1,64 @@
+
+.profile {
+    height: 50vh;
+	margin: auto;
+    margin-top: 100px;
+	background-color: #f2e8cf;
+    color: black;
+    font-weight: bold;
+	border-radius: 40px;
+	width: 200px;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.photo {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 150px;
+    border: 15px solid rgba(#f6f2ff, 0.7);
+    object-fit: cover;
+    text-align: center;
+	}
+.name {
+    /* margin-top: 24px; */
+	text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.details {
+		font-size: 15px;
+		font-weight: 400;
+		width: 100%;
+		line-height: 1.3;
+		text-align: center;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.follow {
+    background: #bc4749;
+}
+.button {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 12px;
+    cursor: pointer;	
+    color: white;	
+}
+
+.button-icon{
+    font-size: 20px;
+}
